@@ -1,0 +1,10 @@
+num_students: 100
+num_rooms: 80
+num_profs: 10
+
+num_days: 5
+num_hours_per_day: 8
+num_modules: 9
+
+num_lectures_per_module: 3
+num_module_per_student: 3

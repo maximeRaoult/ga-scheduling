@@ -1,0 +1,12 @@
+num_students: 2000
+num_rooms: 80
+num_profs: 50
+
+num_days: 50
+num_hours_per_day: 8
+num_modules: 30
+
+num_lectures_per_module: 3
+num_module_per_student: 3
+
+num_lecture_per_profs: 2
