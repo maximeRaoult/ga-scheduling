@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description="Time table maker.")
 parser.add_argument(
     "-r",
     "--results",
-    default="results/custom,small_data.npz,custom,0.01,50,2,100,False,1,1.npz",
+    default="results/custom,small_data.npz,custom,0.01,50,2,100,False,1.npz",
     help="Which results file",
 )
 

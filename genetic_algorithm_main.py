@@ -23,7 +23,7 @@ parser.add_argument(
     "-c",
     "--crossover",
     default="custom",
-    help="The crossover function",
+    help="The crossover function. Possible values: custom, single_point, two_points, uniform, scattered (see PyGAD documentation)",
 )
 
 parser.add_argument(
@@ -37,7 +37,7 @@ parser.add_argument(
     "-m",
     "--mutation",
     default="custom",
-    help="The crossover function",
+    help="The mutation function. Possible values: random, swap, inversion, scramble, adaptive (see PyGAD documentation)",
 )
 
 parser.add_argument(
@@ -60,7 +60,7 @@ parser.add_argument(
     "-g",
     "--num_generations",
     type=int,
-    default=10,
+    default=50,
     help="Number of generations",
 )
 
@@ -83,7 +83,7 @@ parser.add_argument(
     "-v",
     "--cost",
     default="1",
-    help="WHich cost function",
+    help="Which cost function (1 or 2)",
 )
 
 args = parser.parse_args()
